@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
+import Link from "@components/ui/link.astro";
 
 // Generate a new path for every collection entry
 export async function getStaticPaths() {
@@ -37,14 +38,31 @@ const { Content } = await entry.render();
           datetime={entry.data.publishDate.toISOString()}>
           {entry.data.publishDate.toDateString()}
         </time>
-        <span class="text-gray-400 hidden md:block">•</span>
-        <div class="w-full md:w-auto flex flex-wrap gap-3">
-          {
-            entry.data.tags.map((tag) => (
-              <span class="text-sm text-gray-500">#{tag}</span>
-            ))
-          }
-        </div>
+        {
+          entry.data.tags.length > 0 && (
+            <>
+              <span class="text-gray-400 hidden md:block">•</span>
+              <div class="w-full md:w-auto flex flex-wrap gap-3">
+                {entry.data.tags.map((tag) => (
+                  <span class="text-sm text-gray-500">#{tag}</span>
+                ))}
+              </div>
+            </>
+          )
+        }
+        {
+          entry.data.original && (
+            <>
+              <span class="text-gray-400">•</span>
+              <a
+                class="text-gray-400"
+                target="__blank"
+                href={entry.data.original}>
+                Original article
+              </a>
+            </>
+          )
+        }
       </div>
     </div>
 

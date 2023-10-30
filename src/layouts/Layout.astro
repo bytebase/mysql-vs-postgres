@@ -19,7 +19,7 @@ const { title } = Astro.props;
 
 const makeTitle = title
   ? title + " | " + "MySQL vs PostgreSQL"
-  : "MySQL vs PostgreSQL - Compare database features and performance";
+  : "MySQL vs PostgreSQL - The missing comprehensive comparison on the web";
 ---
 
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="MySQL vs PostgreSQL - Compare database features and performance."
+      description="MySQL vs PostgreSQL - The missing comprehensive comparison on the web."
       canonical={canonicalURL}
       twitter={{
         creator: "@Bytebase",
@@ -44,7 +44,7 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `MySQL vs PostgreSQL - Compare database features and performance`,
+          title: `MySQL vs PostgreSQL - The missing comprehensive comparison on the web`,
           image: resolvedImageWithDomain,
         },
         image: {
@@ -52,7 +52,10 @@ const makeTitle = title
         },
       }}
     />
-    <script defer data-domain="mysql-vs-postgresql.com" src="https://plausible.io/js/script.js"></script>
+    <script
+      defer
+      data-domain="mysql-vs-postgresql.com"
+      src="https://plausible.io/js/script.js"></script>
   </head>
   <body>
     <Navbar />
