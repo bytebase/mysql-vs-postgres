@@ -4,39 +4,39 @@ import { Icon } from "astro-icon";
 
 const features = [
   {
-    title: "Bring Your Own Framework",
-    description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
+    title: "License",
+    mysql: "🙁 GPL",
+    postgres: "😀 PostgreSQL license similar to BSD or MIT",
     icon: "bx:bxs-briefcase",
   },
   {
-    title: "100% Static HTML, No JS",
-    description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
+    title: "Performance",
+    mysql: "😀 Better in extreme write-intensive workloads",
+    postgres: "🙂 Performant in most cases",
     icon: "bx:bxs-window-alt",
   },
   {
-    title: "On-Demand Components",
-    description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.  ",
+    title: "Features",
+    mysql: "🙂 Capable in most cases",
+    postgres: "😀 More advanced in transaction, security, query optimizer, JSON, CTE, window functions",
     icon: "bx:bxs-data",
   },
   {
-    title: "Broad Integration",
-    description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
+    title: "Extensibility",
+    mysql: "🙁 Limited plugins",
+    postgres: "😀 Plethora extensions",
     icon: "bx:bxs-bot",
   },
   {
-    title: "SEO Enabled",
-    description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
+    title: "Usability",
+    mysql: "🙂 Forgivable and follow convention",
+    postgres: "🙂 Rigorous and follow standard",
     icon: "bx:bxs-file-find",
   },
   {
-    title: "Community",
-    description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
+    title: "Ecosystem",
+    mysql: "🙂 Large install base",
+    postgres: "😀 Thriving community and more hosting providers",
     icon: "bx:bxs-user",
   },
 ];
@@ -60,7 +60,8 @@ const features = [
         </div>
         <div>
           <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
-          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          <p class="text-slate-500 mt-2 leading-relaxed">MySQL - {item.mysql}</p>
+          <p class="text-slate-500 mt-2 leading-relaxed">PostgreSQL - {item.postgres}</p>
         </div>
       </div>
     ))
