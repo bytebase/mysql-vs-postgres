@@ -19,7 +19,7 @@ const { title } = Astro.props;
 
 const makeTitle = title
   ? title + " | " + "MySQL vs PostgreSQL"
-  : "MySQL vs PostgreSQL - The missing comprehensive comparison on the web";
+  : "MySQL vs PostgreSQL - Compare database features, performance and others";
 ---
 
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="MySQL vs PostgreSQL - The missing comprehensive comparison on the web."
+      description="MySQL vs PostgreSQL - Compare database features, performance and others."
       canonical={canonicalURL}
       twitter={{
         creator: "@Bytebase",
@@ -44,7 +44,7 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `MySQL vs PostgreSQL - The missing comprehensive comparison on the web`,
+          title: `MySQL vs PostgreSQL - Compare database features, performance and others`,
           image: resolvedImageWithDomain,
         },
         image: {
