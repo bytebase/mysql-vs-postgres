@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.mysql-vs-postgresql.com/sitemap-index.xml
+Sitemap: http://www.mysql-vs-postgres.com/sitemap-index.xml

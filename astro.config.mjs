@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://www.mysql-vs-postgresql.com",
+  site: "https://www.mysql-vs-postgres.com",
   integrations: [
     tailwind(),
     image({
