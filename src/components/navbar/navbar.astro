@@ -6,7 +6,7 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const menuitems = [
   {
-    title: "Updated for 2023 ☘️",
+    title: "Read 2023 Edition 👈",
     path: "/blog/mysql-vs-postgres",
   },
 ];
@@ -18,10 +18,8 @@ const menuitems = [
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-xl"
           ><span class="font-bold text-slate-800">MySQL</span><span
-            class="text-slate-500">{' '}vs{' '}</span
-          ><span
-          class="font-bold text-slate-800">PostgreSQL</span
-        >
+            class="text-slate-500">{" "}vs{" "}</span
+          ><span class="font-bold text-slate-800">PostgreSQL</span>
         </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-gray-800" />
@@ -44,7 +42,7 @@ const menuitems = [
                   <li>
                     <a
                       href={item.path}
-                      class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900">
+                      class="flex lg:px-3 py-2 text-blue-700 hover:underline">
                       {item.title}
                     </a>
                   </li>
