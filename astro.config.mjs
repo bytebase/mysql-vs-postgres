@@ -9,9 +9,6 @@ export default defineConfig({
   site: "https://www.mysql-vs-postgres.com",
   integrations: [
     tailwind(),
-    image({
-      serviceEntryPoint: "@astrojs/image/sharp",
-    }),
     mdx(),
     sitemap(),
   ],
