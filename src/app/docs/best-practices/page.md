@@ -8,9 +8,17 @@ nextjs:
 
 ## Scaling and Sharding
 
-- [How Figma’s databases team lived to tell the scale (Postgres) - Mar 14, 2024](https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/)
-- [Partitioning GitHub’s relational databases to handle scale (MySQL) - Sep 27, 2021](https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/)
-- [Sharding & IDs at Instagram (Postgres) - Dec 30, 2012](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
+- Figma
+  - [How Figma’s databases team lived to tell the scale (Postgres) - Mar 14, 2024](https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/)
+- GitHub
+  - [Partitioning GitHub’s relational databases to handle scale (MySQL) - Sep 27, 2021](https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/)
+- Instagram
+  - [Sharding & IDs at Instagram (Postgres) - Dec 30, 2012](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
+- Notion
+  - [The Great Re-shard from Notion (Postgres) - July 17, 2023](https://www.notion.so/blog/the-great-re-shard)
+  - [Herding elephants: Lessons learned from sharding Postgres at Notion - Oct 6, 2021](https://www.notion.so/blog/sharding-postgres-at-notion)
+- Slack
+  - [Scaling Datastores at Slack with Vitess - Dec 1, 2020](https://slack.engineering/scaling-datastores-at-slack-with-vitess/)
 
 ## Upgrading
 
