@@ -16,4 +16,4 @@ nextjs:
 
 - [The Great Migration from MongoDB to PostgreSQL - Mar 25, 2024](https://infisical.com/blog/postgresql-migration-technical) ([HackerNews](https://news.ycombinator.com/item?id=39860769), [Reddit](https://www.reddit.com/r/programming/comments/1bq6rfc/the_great_migration_from_mongodb_to_postgresql/))
 - [Postgres vs. MongoDB - Jan 14, 2024](https://www.bytebase.com/blog/postgres-vs-mongodb/)
-- [PlanetScale vs. Neon - Agu 04, 2023](https://www.bytebase.com/blog/planetscale-vs-neon/)
+- [PlanetScale vs. Neon - Aug 04, 2023](https://www.bytebase.com/blog/planetscale-vs-neon/)
