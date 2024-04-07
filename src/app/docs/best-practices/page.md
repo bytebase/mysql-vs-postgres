@@ -22,10 +22,15 @@ nextjs:
 
 ## Upgrading and Migration
 
-- [Upgrading GitHub.com to MySQL 8.0 - Dec 17, 2023](https://github.blog/2023-12-07-upgrading-github-com-to-mysql-8-0/)
-- [Database Migration Service from Klaviyo (MySQL) - May 9, 2023](https://klaviyo.tech/database-migration-service-case-study-1-6f9dd49d5855)
-- [Migrating Airtable to MySQL 8.0 - Jun 2, 2022](https://medium.com/airtable-eng/migrating-airtable-to-mysql-8-0-809f0398a493)
+- Airtable
+  - [Migrating Airtable to MySQL 8.0 - Jun 2, 2022](https://medium.com/airtable-eng/migrating-airtable-to-mysql-8-0-809f0398a493)
+- GitHub
+  - [Upgrading GitHub.com to MySQL 8.0 - Dec 17, 2023](https://github.blog/2023-12-07-upgrading-github-com-to-mysql-8-0/)
+- Klaviyo
+  - [Database Migration Service (Postgres) - Aug 29, 2023](https://klaviyo.tech/database-migration-service-case-study-1-6f9dd49d5855)
+  - [Database Migration Service (MySQL) - May 9, 2023](https://klaviyo.tech/database-migration-service-case-study-1-6f9dd49d5855)
 
 ## Automation
 
-- [Automating MySQL schema migrations with GitHub Actions and more - Feb 14, 2020](https://github.blog/2020-02-14-automating-mysql-schema-migrations-with-github-actions-and-more/)
+- GitHub
+  - [Automating MySQL schema migrations with GitHub Actions and more - Feb 14, 2020](https://github.blog/2020-02-14-automating-mysql-schema-migrations-with-github-actions-and-more/)
