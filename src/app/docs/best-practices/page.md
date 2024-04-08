@@ -8,6 +8,10 @@ nextjs:
 
 ## Scaling and Sharding
 
+- Canva
+
+  - [From Zero to 50 Million Uploads per Day: Scaling Media at Canva - Nov 29, 2022](https://www.canva.dev/blog/engineering/from-zero-to-50-million-uploads-per-day-scaling-media-at-canva/)
+
 - Figma
 
   - [How Figma’s databases team lived to tell the scale (Postgres) - Mar 14, 2024](https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/)
