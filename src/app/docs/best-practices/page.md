@@ -51,17 +51,21 @@ nextjs:
 
   - [Database Migration Service (Postgres) - Aug 29, 2023](https://klaviyo.tech/database-migration-service-case-study-1-6f9dd49d5855)
   - [Database Migration Service (MySQL) - May 9, 2023](https://klaviyo.tech/database-migration-service-case-study-1-6f9dd49d5855)
- 
+
+- Postgres.ai
+
+  - [Common DB schema change mistakes](https://postgres.ai/blog/20220525-common-db-schema-change-mistakes)
+
 - Retool
 
-  - [How Retool upgraded our 4 TB main application PostgreSQL database](https://retool.com/blog/how-we-upgraded-postgresql-database)   
+  - [How Retool upgraded our 4 TB main application PostgreSQL database](https://retool.com/blog/how-we-upgraded-postgresql-database)
 
 ## Automation
 
 - GitHub
 
   - [Automating MySQL schema migrations with GitHub Actions and more - Feb 14, 2020](https://github.blog/2020-02-14-automating-mysql-schema-migrations-with-github-actions-and-more/)
- 
+
 - Goldman Sachs
 
   - [Introducing Obevo: Get Your Database SDLC under Control](https://www.infoq.com/articles/Obevo-Introduction/)
