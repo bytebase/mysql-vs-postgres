@@ -36,7 +36,7 @@ function Header() {
   }, [])
 
   return (
-    <PlausibleProvider domain="https://www.mysql-vs-postgres.com/">
+    <PlausibleProvider domain="mysql-vs-postgres.com/">
       <header
         className={clsx(
           'sticky top-0 z-50 flex flex-none flex-wrap items-center justify-between bg-white px-4 py-5 shadow-md shadow-slate-900/5 transition duration-500 sm:px-6 lg:px-8 dark:shadow-none',
