@@ -17,6 +17,7 @@ nextjs:
 - [Comparison of MySQL Online Schema Change Tools](https://planetscale.com/docs/learn/online-schema-change-tools-comparison)
 - [gh-ost](https://github.com/github/gh-ost)
 - [pt-online-schema-change](https://docs.percona.com/percona-toolkit/pt-online-schema-change.html)
+- [SB-OSC](https://github.com/sendbird/sb-osc)
 
 ## Online Schema Migration (PostgreSQL)
 
